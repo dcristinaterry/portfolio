@@ -6287,6 +6287,26 @@ video {
   font-family: Syncopate, sans-serif;
 }
 
+.font-croissant {
+  font-family: Croissant One, cursive;
+}
+
+.font-novaSlim {
+  font-family: Nova Slim, cursive;
+}
+
+.font-spaceMono {
+  font-family: Space Mono, monospace;
+}
+
+.font-electro {
+  font-family: Electrolize, sans-serif;
+}
+
+.font-lexend {
+  font-family: Lexend Peta, sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -24091,6 +24111,26 @@ video {
 
   .sm\:font-syncopate {
     font-family: Syncopate, sans-serif;
+  }
+
+  .sm\:font-croissant {
+    font-family: Croissant One, cursive;
+  }
+
+  .sm\:font-novaSlim {
+    font-family: Nova Slim, cursive;
+  }
+
+  .sm\:font-spaceMono {
+    font-family: Space Mono, monospace;
+  }
+
+  .sm\:font-electro {
+    font-family: Electrolize, sans-serif;
+  }
+
+  .sm\:font-lexend {
+    font-family: Lexend Peta, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -41900,6 +41940,26 @@ video {
     font-family: Syncopate, sans-serif;
   }
 
+  .md\:font-croissant {
+    font-family: Croissant One, cursive;
+  }
+
+  .md\:font-novaSlim {
+    font-family: Nova Slim, cursive;
+  }
+
+  .md\:font-spaceMono {
+    font-family: Space Mono, monospace;
+  }
+
+  .md\:font-electro {
+    font-family: Electrolize, sans-serif;
+  }
+
+  .md\:font-lexend {
+    font-family: Lexend Peta, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -59707,6 +59767,26 @@ video {
     font-family: Syncopate, sans-serif;
   }
 
+  .lg\:font-croissant {
+    font-family: Croissant One, cursive;
+  }
+
+  .lg\:font-novaSlim {
+    font-family: Nova Slim, cursive;
+  }
+
+  .lg\:font-spaceMono {
+    font-family: Space Mono, monospace;
+  }
+
+  .lg\:font-electro {
+    font-family: Electrolize, sans-serif;
+  }
+
+  .lg\:font-lexend {
+    font-family: Lexend Peta, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -77512,6 +77592,26 @@ video {
 
   .xl\:font-syncopate {
     font-family: Syncopate, sans-serif;
+  }
+
+  .xl\:font-croissant {
+    font-family: Croissant One, cursive;
+  }
+
+  .xl\:font-novaSlim {
+    font-family: Nova Slim, cursive;
+  }
+
+  .xl\:font-spaceMono {
+    font-family: Space Mono, monospace;
+  }
+
+  .xl\:font-electro {
+    font-family: Electrolize, sans-serif;
+  }
+
+  .xl\:font-lexend {
+    font-family: Lexend Peta, sans-serif;
   }
 
   .xl\:font-hairline {

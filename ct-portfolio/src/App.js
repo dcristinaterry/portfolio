@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from "./Main"
 import Header from './components/header/Header';
+import Projects from './components/projectSection/Projects';
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      <Projects/>
     </div>
 
   );

@@ -262,6 +262,8 @@ module.exports = {
       croissant: ['Croissant One', 'cursive'],
       novaSlim: ['Nova Slim', 'cursive'],
       spaceMono: ['Space Mono', 'monospace'],
+      electro: ['Electrolize', 'sans-serif'],
+      lexend: ['Lexend Peta', 'sans-serif'],
     },
     fontSize: {
       xs: '0.75rem',
