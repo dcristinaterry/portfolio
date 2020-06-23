@@ -6,12 +6,12 @@ const Skills = () => {
         "Eclipse", "VS Code", "mySql Workbench", "Jira", "Zira", "Systems Analysis", "Requirements Gathering", "Ambiguity Analysis", "Project Coordination", "Test Automation"]
 
     return (
-        <div id="section2" className="bg-blue-200 relative sm:w-auto md:w-2/3 md:mt-20 md:ml-16 rounded-lg overflow-hidden shadow-lg bg-white-101 sm:mb-6 mb-4">
+        <div id="section2" className="relative sm:w-auto md:w-2/3 md:mt-20 md:ml-16 rounded-lg overflow-hidden shadow-lg bg-white-101 sm:mb-6 mb-4">
             <div className="w-full py-4">
 
                 <div>
 
-                    <h2 className="text-gray-800 font-mukta lg:text-2xl text-xl text-center pb-4" >SKILLS</h2>
+                    <h2 className="text-gray-800 font-megrim text-4xl text-center  font-extrabold pb-4" >skills</h2>
 
                     <div className="text-center pb-4" >
                         

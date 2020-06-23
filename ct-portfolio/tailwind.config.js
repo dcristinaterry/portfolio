@@ -56,6 +56,7 @@ module.exports = {
         800: '#9c4221',
         900: '#7b341e',
         910: '#FF5A09',
+        920: '#ffb766',
       },
       yellow: {
         100: '#fffff0',
@@ -254,6 +255,13 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      Damion: ['Damion','cursive'],
+      molle:['Molle', 'cursive'],
+      megrim:['Megrim', 'cursive'],
+      syncopate: ['Syncopate', 'sans-serif'],
+      croissant: ['Croissant One', 'cursive'],
+      novaSlim: ['Nova Slim', 'cursive'],
+      spaceMono: ['Space Mono', 'monospace'],
     },
     fontSize: {
       xs: '0.75rem',
@@ -266,6 +274,7 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '10xl': '10rem',
     },
     fontWeight: {
       hairline: '100',
