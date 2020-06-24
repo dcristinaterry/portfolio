@@ -1,20 +1,17 @@
 import React from 'react';
-import Bio from './components/bio/Bio'
+
 import 'font-awesome/css/font-awesome.min.css';
-import Skills from './components/Skills';
+
+import MainLeft from './components/mainLeft/MainLeft';
+import Blogs from './components/mainRight/Blogs';
 
 const Main = () => {
 
     return (
-        <div className="relative flex ">
-            <div className="md:w-2/3">
-            <Bio />
-            <Skills className="relative"/>
-            </div>
-            <section className="md:w-1/3 bg-red-300" >
-                
-            </section>
-           
+        <div className="relative md:flex ">
+            <MainLeft />
+            <Blogs />
+         
 
         </div>
 
