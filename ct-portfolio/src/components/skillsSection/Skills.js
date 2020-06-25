@@ -2,8 +2,8 @@ import React from "react"
 
 const Skills = () => {
 
-    let skillsArr = ["JavaScript","mySql", "Node Js", "webServices", "Java",  "HTML", "CSS", "HandleBars", "Sequelize", "Mongo", "mongoose",
-        "Eclipse", "VS Code", "mySql Workbench", "Jira", "Zira", "Systems Analysis", "Requirements Gathering", "Ambiguity Analysis", "Project Coordination", "Test Automation"]
+    let skillsArr = ["JavaScript","mySql", "Node Js", "webServices", "Java", "HTML", "CSS", "Tailwind CSS","Bootstrap", "HandleBars", "Sequelize", "Mongo", "mongoose",
+        "Eclipse", "VS Code", "mySql Workbench", "Jira", "Zira", "Systems Analysis", "Requirements Gathering", "Ambiguity Analysis", "Project Coordination", "Test Automation", "Fluent in English and Spanish"]
 
     return (
         <div id="section2" className="relative sm:w-auto  md:mt-32  rounded-lg overflow-hidden shadow-lg bg-white-101 sm:mb-6 mb-4">
