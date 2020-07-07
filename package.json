@@ -16,13 +16,13 @@
     "tailwindcss": "^1.4.6"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "tailwind build src/styles/tailwind.css -o src/styles/app.css"
+    "build:css": "tailwind build src/styles/tailwind.css -o src/styles/app.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": "react-app"
