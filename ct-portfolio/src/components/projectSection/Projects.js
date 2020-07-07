@@ -5,30 +5,30 @@ const Projects = () => {
 
     const myProjects = [
         {
-            projectName: "Weather Dashboard",
-            description: "This application will give information about the weather for a specific city.",
-            image: "./assets/Screen Shot 2020-04-08 at 11.01.09 PM.png",
-            github: "https://crisdc88.github.io/H6-WEATHER-INFO/",
-            technologies: [],
-            deploy: "https://crisdc88.github.io/H6-WEATHER-INFO/"
+            projectName: "Study-Buddy",
+            description: "This application will allow students to interact within their own class/cohort to better schedule and host group study sessions",
+            image: "./assets/ScreenStudyBuddy.png",
+            github: "https://github.com/dcristinaterry/P3-Study-Budy",
+            technologies: ["Tailwind Css", "JavaScript", "Axios", "Node Js" ,"Express",  "Sequelize", "mySql"],
+            deploy: ""
+        },
+
+        {
+            projectName: "Groceries List",
+            description: "This application will allow you to have save your list of Items and move them to different places to avoid forgetting any item..",
+            image: "./assets/ScreenGroceries.png",
+            github: "https://github.com/dcristinaterry/GROCERIES-LIST",
+            technologies: ["Node Js", "mySql", "Express", "Jquery","HandleBars", "Bootstrap"],
+            deploy: "https://ct-groceries-list.herokuapp.com/"
         },
 
         {
             projectName: "Weather Dashboard",
-            description: "This application will give information about the weather for a specific city.",
-            image: "./assets/Screen Shot 2020-04-08 at 11.01.09 PM.png",
-            github: "https://crisdc88.github.io/H6-WEATHER-INFO/",
-            technologies: [],
-            deploy: "https://crisdc88.github.io/H6-WEATHER-INFO/"
-        },
-
-        {
-            projectName: "Weather Dashboard",
-            description: "This application will give information about the weather for a specific city.",
-            image: "./assets/Screen Shot 2020-04-08 at 11.01.09 PM.png",
-            github: "https://crisdc88.github.io/H6-WEATHER-INFO/",
-            technologies: [],
-            deploy: "https://crisdc88.github.io/H6-WEATHER-INFO/"
+            description: "With this application you will be able to check the weather for a City and have a 5 day weathercast",
+            image: "./assets/ScreenWeather.png",
+            github: "https://github.com/dcristinaterry/WEATHER-INFO",
+            technologies: ["Jquery", "Bootstrap", "Ajax"],
+            deploy: "https://dcristinaterry.github.io/WEATHER-INFO/"
         },
 
     ]
@@ -49,6 +49,7 @@ const Projects = () => {
                         image={item.image}
                         github={item.github}
                         deploy={item.deploy}
+                        technologies = {item.technologies}
                     />
     
                 ))}

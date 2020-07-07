@@ -5,27 +5,40 @@ const ProjectCard = (props) => {
     return (
 
 
-        <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col  p-10 " 
-        itemtype="https://schema.org/WebSite">
+        <div className="w-full md:w-1/2 lg:w-1/3  p-10 " >
             <div
-                className="no-underline bg-white-100 flex flex-1 flex-col shadow-lg hover:shadow hover:-translateY-sm rounded-lg overflow-hidden">
-             
-                <a href={props.github} target="_blank">
-                    <div className="w-full bg-top min-h-item ">
+                className="no-underline bg-white-100 shadow-lg hover:shadow hover:-translateY-sm rounded-lg ">
 
-                        <img className="object-cover object-center" src={props.image} />
-                    </div>
-                    <div className="flex flex-1 flex-col justify-between p-4 border-t bg-white-100">
-                        <div>
-                            <h3 className="font-bold text-xl mb-2 text-black" >{props.projectName}</h3>
-                            <p className="leading-normal text-grey-darkest text-sm " >{props.description}</p>
+                <a href={props.deploy} target="_blank">
+                    <div className="overflow-hidden">
+                        <div className="">
+
+                            <img className="w-full h-80 object-cover  " src={props.image} />
                         </div>
-                        <div className="mt-6 text-right overflow-hidden">
-                            <span className="inline-flex items-center   text-grey-darker ml-3">
-                                <a className="text-sm  font-bold"
-                                    href={props.github} target="_blank">GitHub Repo</a>
-                            </span>
+                        <div className=" p-4 border-t bg-white-100">
+                            <div>
+                                <h3 className="font-bold text-xl mb-2 text-black" >{props.projectName}</h3>
+                                <p className="leading-normal text-grey-darkest text-sm " >{props.description}</p>
+                            </div>
+                            <div className="my-8 text-right  border-t-2   ">
 
+                                <div className="m-4 mr-2 h-16 flex flex-wrap ">
+
+
+                                    <span className=" items-center  text-grey-darker w-11/12 ">
+
+                                        {props.technologies.map(item => (
+                                            <button className="float-left  inline-block bg-green-910 m-2 p-2 rounded-lg bg-opacity-50 font-spaceMono">{item}</button>
+                                        ))}
+                                       
+
+                                    </span>
+                                    <a className="text-sm  font-bold w-1/12 bg-orange-920 rounded-lg bg-opacity-50 p-3 m-auto" href={props.github} target="_blank">
+                                            <i className="fa fa-github" style={{ fontSize: '40px' }}></i>
+                                        </a>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </a>
