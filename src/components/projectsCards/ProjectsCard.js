@@ -13,19 +13,19 @@ const ProjectCard = (props) => {
                     <div className="overflow-hidden">
                         <div className="">
 
-                            <img className="w-full h-56 object-cover  " src={props.image} />
+                            <img className="w-full h-48 object-cover  " src={props.image} />
                         </div>
-                        <div className="p-2 border-t bg-white-100">
+                        <div className="p-1 border-t bg-white-100">
                             <div>
                                 <h3 className="font-bold font-electro text-xl mb-2 text-black" >{props.projectName}</h3>
                                 <p className="leading-normal font-electro text-gray-900 text-sm " >{props.description}</p>
                             </div>
-                            <div className="my-8 border-t-2   ">
+                            <div className="m-4 border-t-2   ">
 
-                                <div className="m-4 flex flex-wrap ">
+                                <div className="flex flex-wrap ">
 
 
-                                    <span className=" items-center w-11/12 ">
+                                    <span className="items-center w-11/12 ">
 
                                         {props.technologies.map(item => (
                                             <button className="float-left text-xs text-gray-900 inline-block bg-green-910 m-1 p-1 rounded-lg bg-opacity-50 font-mono">{item}</button>
