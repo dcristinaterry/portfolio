@@ -2,7 +2,7 @@ import React from "react"
 
 const Blogs = () => {
     return (
-        <section className="md:w-1/3  border-l-2 border-orange-920 m-16" >
+        <section className="md:w-1/3  border-l border-orange-920 m-16" >
             <h2 className="text-gray-900 font-megrim text-4xl text-center font-extrabold pb-4 "  > My Blogs</h2>
 
             <div className="container md:m-10">
