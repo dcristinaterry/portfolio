@@ -22,13 +22,13 @@ const ProjectCard = (props) => {
                             </div>
                             <div className="my-8 border-t-2   ">
 
-                                <div className="m-4 mr-2 h-16 flex flex-wrap ">
+                                <div className="m-4 h-16 flex flex-wrap ">
 
 
                                     <span className=" items-center  text-grey-darker w-11/12 ">
 
                                         {props.technologies.map(item => (
-                                            <button className="float-left  inline-block bg-green-910 m-2 p-2 rounded-lg bg-opacity-50 font-spaceMono">{item}</button>
+                                            <button className="float-left text-sm inline-block bg-green-910 m-1 p-2 rounded-lg bg-opacity-50 font-mono">{item}</button>
                                         ))}
                                        
 
