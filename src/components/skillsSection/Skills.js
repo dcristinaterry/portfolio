@@ -2,7 +2,7 @@ import React from "react"
 
 const Skills = () => {
 
-    let skillsArr = ["JavaScript","mySql", "Node Js", "webServices", "Java", "HTML", "CSS", "Tailwind CSS","Bootstrap", "HandleBars", "Sequelize", "Mongo", "mongoose",
+    let skillsArr = ["JavaScript","mySql", "Node Js", "webServices", "Java", "HTML", "CSS", "Tailwind CSS","Bootstrap", "HandleBars", "Sequelize", "Mongo", "mongoose", "Responsive Design",
         "Eclipse", "VS Code", "mySql Workbench", "Jira", "Zira", "Systems Analysis", "Requirements Gathering", "Ambiguity Analysis", "Project Coordination", "Test Automation", "Fluent in English and Spanish"]
 
     return (
@@ -13,7 +13,7 @@ const Skills = () => {
 
                     <h2 className="text-gray-900 font-megrim text-4xl text-center  font-extrabold pb-4" >skills</h2>
 
-                    <div className="text-center text-xl font-spaceMono pb-4" >
+                    <div className="text-center text-lg font-spaceMono pb-4" >
                         
                         {skillsArr.map((item, index) => (
 
