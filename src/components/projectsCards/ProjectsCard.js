@@ -33,8 +33,8 @@ const ProjectCard = (props) => {
                                        
 
                                     </span>
-                                    <a className="text-sm  font-bold w-1/12 bg-orange-920 rounded-lg bg-opacity-50 p-3 m-auto" href={props.github} target="_blank">
-                                            <i className="fa fa-github" style={{ fontSize: '40px' }}></i>
+                                    <a className="float-right font-bold w-1/12 bg-orange-920 rounded-lg bg-opacity-50 p-1 m-auto" href={props.github} target="_blank">
+                                            <i className="fa fa-github" style={{ fontSize: '30px' }}></i>
                                         </a>
                                 </div>
 
