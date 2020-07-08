@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     return (
 
 
-        <div className="w-full md:w-1/2 lg:w-1/3  p-10 " >
+        <div className="w-full md:w-1/2 lg:w-1/3  p-8 " >
             <div
                 className="no-underline bg-white-100 shadow-lg hover:shadow hover:-translateY-sm rounded-lg ">
 
