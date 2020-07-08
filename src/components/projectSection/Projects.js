@@ -10,7 +10,7 @@ const Projects = () => {
             image: "./assets/ScreenStudyBuddy.png",
             github: "https://github.com/dcristinaterry/P3-Study-Budy",
             technologies: ["Tailwind Css", "JavaScript", "Axios", "Node Js" ,"Express",  "Sequelize", "mySql"],
-            deploy: ""
+            deploy: "https://ct-study-buddy.herokuapp.com/"
         },
 
         {
@@ -33,8 +33,6 @@ const Projects = () => {
 
     ]
 
-
-
     return (
         <section className=" bg-gray-100 pt-10 border-t border-orange-920 ">
 
@@ -51,7 +49,6 @@ const Projects = () => {
                         deploy={item.deploy}
                         technologies = {item.technologies}
                     />
-    
                 ))}
     
             </div>
