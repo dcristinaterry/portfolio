@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
                                     <span className=" items-center  text-grey-darker w-11/12 ">
 
                                         {props.technologies.map(item => (
-                                            <button className="float-left text-sm inline-block bg-green-910 m-1 p-2 rounded-lg bg-opacity-50 font-mono">{item}</button>
+                                            <button className="float-left text-xs inline-block bg-green-910 m-1 p-1 rounded-lg bg-opacity-50 font-mono">{item}</button>
                                         ))}
                                        
 
