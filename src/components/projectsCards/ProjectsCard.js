@@ -20,7 +20,7 @@ const ProjectCard = (props) => {
                                 <h3 className="font-bold text-xl mb-2 text-black" >{props.projectName}</h3>
                                 <p className="leading-normal text-grey-darkest text-sm " >{props.description}</p>
                             </div>
-                            <div className="my-8 text-right  border-t-2   ">
+                            <div className="my-8  border-t-2   ">
 
                                 <div className="m-4 mr-2 h-16 flex flex-wrap ">
 
