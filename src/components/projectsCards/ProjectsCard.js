@@ -15,12 +15,12 @@ const ProjectCard = (props) => {
 
                             <img className="w-full h-48 object-cover  " src={props.image} />
                         </div>
-                        <div className="p-1 border-t bg-white-100">
-                            <div>
+                        <div className="p-2 border-t bg-white-100">
+                            <div className="border-b-2 ">
                                 <h3 className="font-bold font-electro text-xl mb-2 text-black" >{props.projectName}</h3>
                                 <p className="leading-normal font-electro text-gray-900 text-sm " >{props.description}</p>
                             </div>
-                            <div className="m-4 border-t-2   ">
+                            <div className="m-4   ">
 
                                 <div className="flex flex-wrap ">
 
