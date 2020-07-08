@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
                     <div className="overflow-hidden">
                         <div className="">
 
-                            <img className="w-full h-48 object-cover  " src={props.image} />
+                            <img className="w-full h-48 lg:h-56 object-cover  " src={props.image} />
                         </div>
                         <div className="p-2 border-t bg-white-100">
                             <div className="border-b-2 p-2 ">
