@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a487d5a409ecc053238b589b2c87fbf",
+    "revision": "4ce4face89175c92bcd5273dfa3b5ca1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d2009f433f90210974e4",
+    "revision": "0687c4b9a762fbc554bb",
     "url": "/portfolio/static/css/2.3d60f3ae.chunk.css"
   },
   {
-    "revision": "e1c251109fad798a0ab5",
+    "revision": "9fc5101488cb89aa46b1",
     "url": "/portfolio/static/css/main.68cdbc97.chunk.css"
   },
   {
-    "revision": "d2009f433f90210974e4",
-    "url": "/portfolio/static/js/2.f31813cc.chunk.js"
+    "revision": "0687c4b9a762fbc554bb",
+    "url": "/portfolio/static/js/2.37fae57c.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.f31813cc.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.37fae57c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1c251109fad798a0ab5",
-    "url": "/portfolio/static/js/main.77d347c0.chunk.js"
+    "revision": "9fc5101488cb89aa46b1",
+    "url": "/portfolio/static/js/main.75b29996.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
     "url": "/portfolio/static/js/runtime-main.fb1b3dac.js"
+  },
+  {
+    "revision": "867f468abef0a5b348f5e298a77e5bd0",
+    "url": "/portfolio/static/media/DCristinaResume.867f468a.pdf"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
