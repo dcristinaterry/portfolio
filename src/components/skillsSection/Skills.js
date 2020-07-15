@@ -38,7 +38,7 @@ const Skills = () => {
                 <div className="text-center pb-2">
                     <a href="https://www.linkedin.com/in/dcristinaterry/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square pr-10" style={{ fontSize: '40px' }}></i></a>
                     <a href="https://github.com/dcristinaterry" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github pr-10" style={{ fontSize: '40px' }}></i></a>
-                    <a href="./assets/D.CristinaResume.pdf" target="_blank" rel="noopener noreferrer"  ><i className="fa fa-file-pdf-o" style={{ fontSize: '40px' }}></i></a>
+                    <a href="./DCristinaResume.pdf" target="_blank" rel="noopener noreferrer"  ><i className="fa fa-file-pdf-o" style={{ fontSize: '40px' }}></i></a>
                 </div>
             </div>
 
