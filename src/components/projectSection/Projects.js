@@ -34,7 +34,7 @@ const Projects = () => {
     ]
 
     return (
-        <section className=" bg-gray-100 pt-10 border-t border-orange-920 ">
+     <section className=" bg-gray-100 pt-10 border-t border-orange-920 ">
 
         <h4 className="text-center text-lg sm:text-2xl lg:text-2xl bg-gray-920 text-orange-920 font-syncopate font-medium p-6 mb-10 text-3xl ">Check out some of my projects</h4>
         <div className=" mx-auto">
