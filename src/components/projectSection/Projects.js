@@ -15,7 +15,7 @@ const Projects = () => {
 
         {
             projectName: "Groceries List",
-            description: "This application will allow you to have save your list of Items and move them to different places to avoid forgetting any item.",
+            description: "This application will allow you to save your list of Items and move them to different places to avoid forgetting any item.",
             image: "./assets/ScreenGroceries.png",
             github: "https://github.com/dcristinaterry/GROCERIES-LIST",
             technologies: ["Node Js", "mySql", "Express", "Jquery","HandleBars", "Bootstrap"],
